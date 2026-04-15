@@ -87,7 +87,7 @@ const skillSections = [
         icon: springBootIcon,
         title: "Spring Boot Framework",
         description:
-          "Spring Boot를 활용해 REST API를 설계 및 구현하고, 데이터 기반으로 리스트 및 상세 페이지를 구성했습니다.",
+          "Spring Boot를 활용해 REST API를 설계 및 구현하고, 데이터를 기반으로 리스트 및 상세 페이지를 구성했습니다.",
       },
     ],
   },
@@ -133,11 +133,11 @@ const projects = [
     type: "개인",
     title: "홍콩 익스프레스 - 리디자인, 반응형",
     description:
-      "항공 사용자 경험을 개선하기 위해 해외 항공사 사이트를 리디자인하고, 사용자 정보 탐색 과정을 재구성하여 탑승 경험을 향상시켰습니다.",
+      "한국 사용자의 접근성과 사용성을 개선하기 위해 해외 항공사 사이트를 리디자인하고, 취항지 정보를 사용자 중심으로 재구성하여 탐색 경험을 향상시켰습니다.",
     points: [
-      "메인/예약 플로우를 리디자인해 사용자 피로도를 낮춤",
-      "GSAP 인터랙션을 활용한 라이트 모션 UI 설계",
-      "Axios를 활용한 비동기 데이터 호출 및 상태 관리 경험",
+      "미디어쿼리를 활용해 다양한 디바이스에 대응하는 반응형 UI 구현",
+      "GSAP 라이브러리를 활용한 슬라이드 및 인터랙션 UI 구현",
+      "Axios를 활용한 버튼 이벤트 기반 데이터 요청 및 화면 렌더링 처리",
     ],
     visualClass: "project-card__visual--airline",
   },
@@ -145,11 +145,11 @@ const projects = [
     type: "개인",
     title: "블루보틀 - 메인페이지 리뉴얼, 반응형",
     description:
-      "브랜드의 본질을 리마인드하는 랜딩 구조와 콘텐츠 배치를 정리하며 메인 페이지를 리뉴얼하고, 디바이스별 흐름을 고려한 다양한 환경의 사용자 경험을 제공했습니다.",
+      "블루보틀의 브랜드 아이덴티티인 깔끔함과 고급스러움을 강화하기 위해 메인 페이지를 리뉴얼하고, 미디어쿼리를 활용한 반응형 웹으로 다양한 환경에서 일관된 사용자 경험을 제공했습니다.",
     points: [
-      "React 라우팅과 Swiper를 활용한 섹션형 랜딩 UI 구성",
-      "React Router를 활용해 페이지 전환 및 사용자 흐름 구현",
-      "컴포넌트 단위 UI를 분리하며 유지보수성과 재사용성 확보",
+      "React 환경에서 Swiper를 활용한 반응형 슬라이드 UI 구현",
+      "React Router를 활용한 페이지 간 라우팅 및 사용자 흐름 구성",
+      "컴포넌트 단위로 UI를 분리하여 유지보수성과 재사용성 향상",
     ],
     visualClass: "project-card__visual--design",
   },
@@ -157,11 +157,11 @@ const projects = [
     type: "팀",
     title: "모여봐요, 동물의숲 - 팬페이지, 반응형",
     description:
-      "게임의 분위기와 정보를 직관적으로 전달하는 팬페이지를 제작하고, 캐릭터와 콘텐츠에 어울리는 비주얼을 통해 팬 경험을 확장했습니다.",
+      "‘모여봐요, 동물의 숲’을 주제로 한 팬사이트를 제작하고, 기존 위키형 정보보다 직관적인 UI를 통해 주민 정보를 보다 쉽게 탐색할 수 있도록 제작했습니다.",
     points: [
       "Java를 활용한 백엔드 로직 구현 및 데이터 처리",
       "Spring Boot 기반 REST API 설계 및 프론트엔드 연동",
-      "MySQL 기반 데이터 저장 구조와 DB를 활용한 예약 연계 UI 구성",
+      "MySQL 기반 개발 후 TiDB 클라우드 DB를 활용한 데이터 관리 및 배포 환경 구성",
     ],
     visualClass: "project-card__visual--forest",
   },
@@ -169,11 +169,11 @@ const projects = [
     type: "개인",
     title: "Airplane SchedulApp - 창작",
     description:
-      "항공편 일정을 더욱 쉽게 확인하고 비교할 수 있는 개인 프로젝트로, 사용자 친화적인 검색 경험과 핵심 정보를 빠르게 확인할 수 있는 인터페이스를 설계했습니다.",
+      "승무원들이 기존 앱을 통해 일정을 확인해야 하는 번거로운 과정을 줄이기 위해, 사용자가 직접 입력한 스케줄 데이터를 기반으로 휴대폰 바탕화면 이미지를 생성하는 기능을 구현했습니다. 이를 통해 별도의 앱 실행 없이 한눈에 근무 일정을 확인할 수 있도록 사용자 경험을 개선했습니다.",
     points: [
-      "Google Cloud 비전과 연동한 OCR 기반 문서 정보 추출",
+      "Google Cloud 환경에서 클라우드 DB를 활용한 데이터 관리 경험",
       "Cloudflare를 활용한 배포 및 서비스 접근성 개선",
-      "Zustand를 활용한 전역 상태 관리 및 UI 흐름 유지",
+      "Zustand를 활용한 전역 상태 관리 및 UI 상태 동기화",
     ],
     visualClass: "project-card__visual--app",
   },
@@ -243,23 +243,6 @@ function App() {
                     />
                   </svg>
                 </a>
-
-                <a className="secondary-link" href="#about">
-                  <span className="secondary-link__icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24">
-                      <circle
-                        cx="12"
-                        cy="12"
-                        r="8.5"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="1.8"
-                      />
-                      <path d="M10 8.7 15 12l-5 3.3V8.7Z" fill="currentColor" />
-                    </svg>
-                  </span>
-                  <span>View Reel</span>
-                </a>
               </div>
             </div>
 
@@ -281,22 +264,22 @@ function App() {
 
               <div className="about__body">
                 <p className="about__quote">
-                  &quot;컴포넌트는 그들의 커피숍 주문서와 같다.&quot;
+                  &quot;컴포넌트는 고도의 커피숍 주문서와 같다.&quot;
                 </p>
                 <p>
                   잘 만들어진 주문서는 고객의 취향, 사이즈, 옵션을 빠짐없이 담아
                   한 잔의 완벽한 커피를 만들어냅니다. 컴포넌트도 마찬가지라고
-                  생각합니다. 다양한 요구사항을 체계적으로 설계하고, 어떤
-                  환경에서도 최적의 결과를 보여줄 수 있어야 합니다.
+                  생각합니다. 다양한 요구사항을 체 계적으로 설계하고, 어떤
+                  환경에서든 최적의 결과를 보여줄 수 있어야 합니다.
                 </p>
                 <p className="about__highlight">
-                  이러한 생각으로 커피를 내리는 바리스타처럼, 박훈상입니다.
+                  이러한 생각으로 컴포넌트를 만드는 웹 퍼블리셔, 박훈상입니다.
                 </p>
                 <p>
-                  React를 활용해 재사용성과 효율성을 갖춘 UI를 구현하며, 시맨틱
-                  태그 기반의 마크업으로 웹 접근성을 확보하는 것을 지향합니다.
-                  반응형 웹 설계를 통해 다양한 디바이스 환경에서도 유기적으로
-                  배치되는 UI 요소 구현에 강합니다.
+                  React를 활용하여 재사용성과 효율성을 갖춘 UI를 구현하며,
+                  시멘틱 태그 기반의 마크업으로 웹 접근성을 확보하는 것을
+                  지향합니다. 반응형 웹 설계를 통해 다양한 디바이스 환경에서도
+                  유기적으로 배치되는 UI 요소 구성에 능숙합니다.
                 </p>
                 <p>
                   또한 Java와 Spring 프레임워크를 기반으로 한 프로젝트 경험을
@@ -315,7 +298,7 @@ function App() {
                     </p>
                     <h3 className="education-card__title">
                       키오스크 풀스택(프론트 React, PHP / 백엔드 Java, Spring)
-                      개발자 양성과정 참여 기업 프로젝트 과정 수료 (1000H)
+                      개발자 양성과정, 참여 기업 프로젝트 과정 수료 (1000H)
                     </h3>
                     <p className="education-card__date">
                       2025.03.20 - 2025.09.30
@@ -423,7 +406,7 @@ function App() {
 
       <footer className="site-footer">
         <div className="layout-shell">
-          <p className="site-footer__copy">HUNSANG PARK PORTFOLIO</p>
+          <p className="site-footer__copy">@ 2026 HUNSANG PORTFOLIO</p>
         </div>
       </footer>
     </div>
