@@ -10,18 +10,6 @@ function AboutSection() {
           <h2 className="about__title">ABOUT</h2>
 
           <div className="about__body">
-            <p className="about__quote">
-              &quot;컴포넌트는 그들의 커피숍 주문서와 같다.&quot;
-            </p>
-            <p>
-              잘 만들어진 주문서는 고객의 취향, 사이즈, 옵션을 빠짐없이 담아 한
-              잔의 완벽한 커피를 만들어냅니다. 컴포넌트도 마찬가지라고
-              생각합니다. 다양한 요구사항을 체계적으로 설계하고, 어떤
-              환경에서도 최적의 결과를 보여줄 수 있어야 합니다.
-            </p>
-            <p className="about__highlight">
-              이러한 생각으로 컴포넌트를 만들어내는 퍼블리셔, 박훈상입니다.
-            </p>
             <p>
               React를 사용하여 재사용성과 효율성을 갖춘 UI를 구현하고, 시맨틱
               태그 기반의 마크업으로 웹 접근성을 확보하는 것을 지향합니다.
