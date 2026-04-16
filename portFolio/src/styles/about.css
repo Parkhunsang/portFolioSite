@@ -54,12 +54,6 @@
   margin-bottom: 24px;
 }
 
-.about__quote,
-.about__highlight {
-  color: #dfe7ff;
-  font-weight: 700;
-}
-
 .education-grid {
   margin-top: 14px;
   display: grid;
