@@ -1,4 +1,4 @@
-function SiteFooter() {
+function Footer() {
   return (
     <footer className="site-footer">
       <div className="layout-shell">
@@ -8,4 +8,4 @@ function SiteFooter() {
   );
 }
 
-export default SiteFooter;
+export default Footer;

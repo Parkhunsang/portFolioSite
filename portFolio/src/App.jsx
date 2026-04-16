@@ -4,7 +4,7 @@ import AboutSection from "./components/AboutSection";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import ProjectsSection from "./components/ProjectsSection";
-import SiteFooter from "./components/SiteFooter";
+import Footer from "./components/Footer";
 import SkillsSection from "./components/SkillsSection";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <ProjectsSection />
       </main>
 
-      <SiteFooter />
+      <Footer />
     </div>
   );
 }
