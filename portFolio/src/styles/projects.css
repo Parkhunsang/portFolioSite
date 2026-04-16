@@ -1,0 +1,186 @@
+.projects {
+  position: relative;
+  padding: 160px 0 120px;
+}
+
+.projects__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.projects__title {
+  margin: 0;
+  color: #dfe7ff;
+  font-size: clamp(2rem, 2.6vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 68px 26px;
+}
+
+.project-card {
+  overflow: hidden;
+  border-radius: 16px;
+  transition: 0.3s;
+  border: 2px solid #0f1930;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.project-card:hover {
+  background: #0f1930;
+}
+
+.project-card__visual {
+  height: 310px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.project-card__visual--airline {
+  background: url("../assets/hkexpress.png") no-repeat center / cover;
+}
+
+.project-card__visual--design {
+  background: url("../assets/bluebottle.png") no-repeat center / cover;
+}
+
+.project-card__visual--forest {
+  background: url("../assets/animalGuide.png") no-repeat center / cover;
+}
+
+.project-card__visual--app {
+  background: url("../assets/schedule.png") no-repeat center / cover;
+}
+
+.project-card__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 175px;
+  margin-top: 18px;
+}
+
+.project-card__badge {
+  width: fit-content;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: rgba(86, 72, 198, 0.22);
+  color: #a9afff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.project-card__title {
+  margin: 12px 0 0;
+  color: #e7eeff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+}
+
+.project-card__description {
+  margin: 16px 0 0;
+  color: #a8b1c9;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: -0.02em;
+}
+
+.project-card__points {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  color: #8994b3;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.project-card__points li::before {
+  content: "•";
+  color: #7768ff;
+  margin-right: 6px;
+}
+
+.project-card__link {
+  margin-top: auto;
+  align-self: flex-end;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #27d0e9;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.project-card__link svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 1024px) {
+  .projects__grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .project-card {
+    max-width: 860px;
+  }
+}
+
+@media (max-width: 780px) {
+  .projects {
+    padding: 8px 0 72px;
+  }
+
+  .projects__title {
+    font-size: clamp(1.75rem, 7vw, 2.1rem);
+  }
+
+  .project-card__visual {
+    height: 240px;
+  }
+
+  .project-card__body {
+    min-height: auto;
+    padding: 16px 16px 18px;
+  }
+
+  .project-card__title {
+    font-size: 16px;
+  }
+
+  .project-card__description {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+
+  .project-card__points {
+    font-size: 11px;
+    gap: 4px;
+  }
+
+  .project-card__link {
+    margin-top: 16px;
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .project-card__visual {
+    height: 210px;
+  }
+}

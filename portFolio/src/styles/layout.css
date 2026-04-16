@@ -1,0 +1,45 @@
+.portfolio-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(42, 205, 233, 0.1), transparent 24%),
+    radial-gradient(circle at 82% 0%, rgba(255, 111, 97, 0.14), transparent 22%),
+    linear-gradient(180deg, rgba(6, 12, 28, 0.74) 0%, rgba(7, 13, 28, 0.9) 38%, rgba(5, 11, 24, 0.98) 100%),
+    linear-gradient(90deg, #071024 0%, #0b152b 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.site-main {
+  position: relative;
+  z-index: 1;
+}
+
+.layout-shell {
+  width: min(1120px, calc(100% - 96px));
+  height: 100%;
+  margin: 0 auto;
+}
+
+.section-label {
+  display: inline-block;
+  color: #2fd8ee;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .layout-shell {
+    width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .portfolio-page {
+    overflow-y: auto;
+  }
+}
