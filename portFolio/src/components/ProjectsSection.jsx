@@ -17,7 +17,9 @@ function ProjectsSection() {
               <div className="project-card__body">
                 <span className="project-card__badge">{project.type}</span>
                 <h3 className="project-card__title">{project.title}</h3>
-                <p className="project-card__description">{project.description}</p>
+                <p className="project-card__description">
+                  {project.description}
+                </p>
 
                 <ul className="project-card__points">
                   {project.points.map((point) => (
@@ -25,19 +27,22 @@ function ProjectsSection() {
                   ))}
                 </ul>
 
-                <a className="project-card__link" href="#intro">
-                  사이트 보러가기
-                  <svg viewBox="0 0 18 18" aria-hidden="true">
-                    <path
-                      d="M3 9h11m0 0-4-4m4 4-4 4"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.7"
-                    />
-                  </svg>
-                </a>
+                <div className="project-card__buttonWrap">
+                  <a
+                    className="project-card__button project-card__button--primary"
+                    href={project.siteUrl}
+                    target="_blank"
+                  >
+                    사이트로 이동
+                  </a>
+                  <a
+                    className="project-card__button project-card__button--ghost"
+                    href={project.codeUrl}
+                    target="_blank"
+                  >
+                    코드 보기
+                  </a>
+                </div>
               </div>
             </article>
           ))}

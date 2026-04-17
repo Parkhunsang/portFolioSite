@@ -89,7 +89,7 @@ export const skillSections = [
       {
         icon: mysqlIcon,
         title: "MySQL",
-        description: "CRUD 및 JOIN 쿼리 작성을 통한 데이터 관리 가능",
+        description: "CRUD/JOIN 쿼리 작성으로 데이터 관리 가능",
       },
       {
         icon: oracleIcon,

@@ -18,9 +18,8 @@
 
 .about__portrait {
   width: 100%;
-  min-height: 693px;
-  border-radius: 4px;
-  background: url("../assets/profileImage.png") no-repeat center center / cover;
+  min-height: 445px;
+  background: url("../assets/profileImage.png") no-repeat center top / contain;
   position: relative;
   overflow: hidden;
 }
@@ -97,6 +96,10 @@
 
   .about__media {
     min-height: 320px;
+  }
+
+  .about__portrait {
+    max-width: 360px;
   }
 }
 

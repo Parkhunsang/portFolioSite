@@ -10,6 +10,8 @@ export const projects = [
       "Axios를 사용한 이벤트 기반 데이터 요청 및 화면 렌더링 처리",
     ],
     visualClass: "project-card__visual--airline",
+    siteUrl: "http://daxi88.dothome.co.kr/hongkong_rwd",
+    codeUrl: "https://github.com/your-id/repo-name",
   },
   {
     type: "개인",
@@ -22,6 +24,8 @@ export const projects = [
       "컴포넌트 단위로 UI를 분리하여 유지보수성과 재사용성 향상",
     ],
     visualClass: "project-card__visual--design",
+    siteUrl: "http://daxi88.dothome.co.kr/bluebottle_rwd",
+    codeUrl: "https://github.com/your-id/repo-name",
   },
   {
     type: "팀",
@@ -34,6 +38,8 @@ export const projects = [
       "MySQL 기반 데이터 저장 구조와 DB를 활용한 예약 연계 UI 구성",
     ],
     visualClass: "project-card__visual--forest",
+    siteUrl: "https://animal-guide.pages.dev/",
+    codeUrl: "https://github.com/webAnimalRank/animal",
   },
   {
     type: "개인",
@@ -46,5 +52,7 @@ export const projects = [
       "Zustand를 사용한 전역 상태 관리 및 UI 상태 동기화",
     ],
     visualClass: "project-card__visual--app",
+    siteUrl: "https://airplane.schedules.workers.dev/",
+    codeUrl: "https://github.com/Parkhunsang/airplaneSchedule",
   },
 ];
