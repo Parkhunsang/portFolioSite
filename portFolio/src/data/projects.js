@@ -11,7 +11,7 @@ export const projects = [
     ],
     visualClass: "project-card__visual--airline",
     siteUrl: "http://daxi88.dothome.co.kr/hongkong_rwd",
-    codeUrl: "https://github.com/your-id/repo-name",
+    codeUrl: "https://github.com/Parkhunsang/hongkong_rwd",
   },
   {
     type: "개인",
@@ -25,7 +25,7 @@ export const projects = [
     ],
     visualClass: "project-card__visual--design",
     siteUrl: "http://daxi88.dothome.co.kr/bluebottle_rwd",
-    codeUrl: "https://github.com/your-id/repo-name",
+    codeUrl: "https://github.com/Parkhunsang/bluebottle_rwd",
   },
   {
     type: "팀",
