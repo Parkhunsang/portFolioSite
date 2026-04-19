@@ -20,6 +20,7 @@ function ProjectsSection() {
                 <p className="project-card__description">
                   {project.description}
                 </p>
+                <span>{project.role}</span>
 
                 <ul className="project-card__points">
                   {project.points.map((point) => (
